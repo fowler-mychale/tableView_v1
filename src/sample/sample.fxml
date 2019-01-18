@@ -5,14 +5,19 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.SVGPath?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="614.0" prefWidth="1288.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <VBox prefHeight="614.0" prefWidth="331.0" style="-fx-background-color: #34ad92;">
          <children>
-            <Pane prefHeight="200.0" prefWidth="200.0" />
-            <Button graphicTextGap="25.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="331.0" style="-fx-background-color: #34ad92;" stylesheets="@css/dashboard.css" text="Query_1" textFill="#fffdfd">
+            <Pane prefHeight="214.0" prefWidth="331.0">
+               <children>
+                  <SVGPath content="M29.2,15.9C28.9,10.4,25.6,6,21.5,6s-7.4,4.4-7.7,9.9H8.4v18.4c7.5,7.3,19.4,7.3,26.9,0V15.9H29.2z     M15.6,15.9c0.2-4.5,2.8-8.1,5.9-8.1s5.7,3.6,5.9,8.1H15.6z" fill="#fcf6f6" layoutX="142.0" layoutY="77.0" scaleX="3.0" scaleY="3.0" scaleZ="3.0" />
+                  <SVGPath content="M21.8,21.8c1-1.7,2-2.6,4-2.6c2.2,0,4,1.6,4,3.5c0,3.5-4,6.9-8,10.4c-4-3.5-8-6.9-8-10.4c0-1.9,1.8-3.5,4-3.5    C19.8,19.2,20.8,20.1,21.8,21.8L21.8,21.8z M23.5,19.9l5.2,0.4" fill="#e10981" fillRule="EVEN_ODD" layoutX="142.0" layoutY="92.0" scaleX="4.0" scaleY="4.0" scaleZ="3.0" />
+               </children></Pane>
+            <Button  graphicTextGap="25.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="331.0" style="-fx-background-color: #34ad92;" stylesheets="@css/dashboard.css" text="Query_1" textFill="#fffdfd">
                <graphic>
                   <FontAwesomeIcon fill="#f8f1f1" glyphName="GROUP" size="25" strokeType="OUTSIDE" strokeWidth="0.0" />
                </graphic>
@@ -21,7 +26,7 @@
                </font></Button>
             <Button graphicTextGap="25.0" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="331.0" style="-fx-background-color: #34ad92;" stylesheets="@css/dashboard.css" text="Query_2" textFill="#fffdfd">
                <graphic>
-                  <FontAwesomeIcon fill="#f8f1f1" glyphName="DATABASE" size="25" strokeType="OUTSIDE" strokeWidth="0.0" />
+                  <FontAwesomeIcon id="Fa" fill="#f8f1f1" glyphName="DATABASE" size="25" strokeType="OUTSIDE" strokeWidth="0.0" />
                </graphic>
                <font>
                   <Font size="13.0" />
