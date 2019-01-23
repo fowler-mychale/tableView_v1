@@ -2,13 +2,17 @@
 
 <?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
 <?import javafx.scene.shape.SVGPath?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="614.0" prefWidth="1288.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="528.0" prefWidth="1288.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <VBox prefHeight="614.0" prefWidth="331.0" style="-fx-background-color: #34ad92;">
          <children>
@@ -16,15 +20,25 @@
                <children>
                   <SVGPath content="M29.2,15.9C28.9,10.4,25.6,6,21.5,6s-7.4,4.4-7.7,9.9H8.4v18.4c7.5,7.3,19.4,7.3,26.9,0V15.9H29.2z     M15.6,15.9c0.2-4.5,2.8-8.1,5.9-8.1s5.7,3.6,5.9,8.1H15.6z" fill="#fcf6f6" layoutX="142.0" layoutY="77.0" scaleX="3.0" scaleY="3.0" scaleZ="3.0" />
                   <SVGPath content="M21.8,21.8c1-1.7,2-2.6,4-2.6c2.2,0,4,1.6,4,3.5c0,3.5-4,6.9-8,10.4c-4-3.5-8-6.9-8-10.4c0-1.9,1.8-3.5,4-3.5    C19.8,19.2,20.8,20.1,21.8,21.8L21.8,21.8z M23.5,19.9l5.2,0.4" fill="#e10981" fillRule="EVEN_ODD" layoutX="142.0" layoutY="92.0" scaleX="4.0" scaleY="4.0" scaleZ="3.0" />
+                  <Circle centerX="1.0" disable="true" fill="#2197ff00" layoutX="163.0" layoutY="86.0" radius="62.5" stroke="#fcf6f6" strokeType="OUTSIDE" strokeWidth="2.0" />
+                  <Text fill="#fcf6f6" layoutX="74.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="shopathome">
+                     <font>
+                        <Font name="Century Gothic Bold" size="30.0" />
+                     </font></Text>
+                  <Text fill="#fcf6f6" layoutX="258.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TM">
+                     <font>
+                        <Font name="Century Gothic Bold" size="8.0" />
+                     </font>
+                  </Text>
                </children></Pane>
-            <Button  graphicTextGap="25.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="331.0" style="-fx-background-color: #34ad92;" stylesheets="@css/dashboard.css" text="Query_1" textFill="#fffdfd">
+            <Button graphicTextGap="25.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="331.0" stylesheets="@css/dashboard.css" text="Query_1" textFill="#fffdfd">
                <graphic>
                   <FontAwesomeIcon fill="#f8f1f1" glyphName="GROUP" size="25" strokeType="OUTSIDE" strokeWidth="0.0" />
                </graphic>
                <font>
                   <Font size="13.0" />
                </font></Button>
-            <Button graphicTextGap="25.0" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="331.0" style="-fx-background-color: #34ad92;" stylesheets="@css/dashboard.css" text="Query_2" textFill="#fffdfd">
+            <Button graphicTextGap="25.0" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="331.0"  stylesheets="@css/dashboard.css" text="Query_2" textFill="#fffdfd">
                <graphic>
                   <FontAwesomeIcon id="Fa" fill="#f8f1f1" glyphName="DATABASE" size="25" strokeType="OUTSIDE" strokeWidth="0.0" />
                </graphic>
@@ -32,7 +46,7 @@
                   <Font size="13.0" />
                </font>
             </Button>
-            <Button graphicTextGap="25.0" layoutX="10.0" layoutY="69.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="331.0" style="-fx-background-color: #34ad92;" stylesheets="@css/dashboard.css" text="Query_3" textFill="#fffdfd">
+            <Button graphicTextGap="25.0" layoutX="10.0" layoutY="69.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="331.0"  stylesheets="@css/dashboard.css" text="Query_3" textFill="#fffdfd">
                <graphic>
                   <FontAwesomeIcon fill="#f8f1f1" glyphName="DATABASE" size="25" strokeType="OUTSIDE" strokeWidth="0.0" />
                </graphic>
@@ -40,7 +54,7 @@
                   <Font size="13.0" />
                </font>
             </Button>
-            <Button graphicTextGap="25.0" layoutX="10.0" layoutY="128.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="331.0" style="-fx-background-color: #34ad92;" stylesheets="@css/dashboard.css" text="Query_4" textFill="#fffdfd">
+            <Button graphicTextGap="25.0" layoutX="10.0" layoutY="128.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="331.0" stylesheets="@css/dashboard.css" text="Query_4" textFill="#fffdfd">
                <graphic>
                   <FontAwesomeIcon fill="#f8f1f1" glyphName="DATABASE" size="25" strokeType="OUTSIDE" strokeWidth="0.0" />
                </graphic>
@@ -49,5 +63,15 @@
                </font>
             </Button>
          </children></VBox>
+      <TableView layoutX="331.0" layoutY="-2.0" prefHeight="614.0" prefWidth="958.0" stylesheets="@css/dashboard.css">
+        <columns>
+          <TableColumn minWidth="100.0" prefWidth="75.0" styleClass="\@css/dashboard" text="MemberID" />
+          <TableColumn prefWidth="75.0" text="FullName" />
+            <TableColumn prefWidth="75.0" text="Email Address" />
+            <TableColumn prefWidth="75.0" text="Date of Birth" />
+            <TableColumn prefWidth="75.0" text="Mailing Address" />
+            <TableColumn prefWidth="75.0" text="Registered" />
+        </columns>
+      </TableView>
    </children>
 </AnchorPane>
