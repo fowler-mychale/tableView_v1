@@ -5,6 +5,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.stage.Stage;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -26,6 +27,8 @@ public class Main extends Application {
         primaryStage.getIcons().add(image);
         primaryStage.setScene(new Scene(root, 1200, 575));
 
+       Button button= new Button();
+
 
 
 
@@ -43,4 +46,8 @@ public class Main extends Application {
     public static void main(String[] args) {
         launch(args);
     }
+
+
+
+
 }

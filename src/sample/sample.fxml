@@ -12,7 +12,8 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="528.0" prefWidth="1288.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1">
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="528.0" prefWidth="1288.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1"  >
    <children>
       <VBox prefHeight="614.0" prefWidth="331.0" style="-fx-background-color: #34ad92;">
          <children>
@@ -31,14 +32,14 @@
                      </font>
                   </Text>
                </children></Pane>
-            <Button graphicTextGap="25.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="331.0" stylesheets="@css/dashboard.css" text="Query_1" textFill="#fffdfd">
+            <Button fx:id ="button" graphicTextGap="25.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="331.0" stylesheets="@css/dashboard.css" text="Query_1" textFill="#fffdfd" >
                <graphic>
                   <FontAwesomeIcon fill="#f8f1f1" glyphName="GROUP" size="25" strokeType="OUTSIDE" strokeWidth="0.0" />
                </graphic>
                <font>
                   <Font size="13.0" />
                </font></Button>
-            <Button graphicTextGap="25.0" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="331.0"  stylesheets="@css/dashboard.css" text="Query_2" textFill="#fffdfd">
+            <Button graphicTextGap="25.0" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="331.0" stylesheets="@css/dashboard.css" text="Query_2" textFill="#fffdfd">
                <graphic>
                   <FontAwesomeIcon id="Fa" fill="#f8f1f1" glyphName="DATABASE" size="25" strokeType="OUTSIDE" strokeWidth="0.0" />
                </graphic>
@@ -46,7 +47,7 @@
                   <Font size="13.0" />
                </font>
             </Button>
-            <Button graphicTextGap="25.0" layoutX="10.0" layoutY="69.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="331.0"  stylesheets="@css/dashboard.css" text="Query_3" textFill="#fffdfd">
+            <Button graphicTextGap="25.0" layoutX="10.0" layoutY="69.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="331.0" stylesheets="@css/dashboard.css" text="Query_3" textFill="#fffdfd">
                <graphic>
                   <FontAwesomeIcon fill="#f8f1f1" glyphName="DATABASE" size="25" strokeType="OUTSIDE" strokeWidth="0.0" />
                </graphic>
@@ -63,14 +64,17 @@
                </font>
             </Button>
          </children></VBox>
-      <TableView layoutX="331.0" layoutY="-2.0" prefHeight="614.0" prefWidth="958.0" stylesheets="@css/dashboard.css">
-        <columns>
-          <TableColumn minWidth="100.0" prefWidth="75.0" styleClass="\@css/dashboard" text="MemberID" />
-          <TableColumn prefWidth="75.0" text="FullName" />
-            <TableColumn prefWidth="75.0" text="Email Address" />
-            <TableColumn prefWidth="75.0" text="Date of Birth" />
-            <TableColumn prefWidth="75.0" text="Mailing Address" />
-            <TableColumn prefWidth="75.0" text="Registered" />
+      <TableView layoutX="331.0" layoutY="-2.0" prefHeight="614.0" prefWidth="868.5" stylesheets="@css/dashboard.css" fx:id="Tb1">
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+         </columnResizePolicy>
+         <columns>
+          <TableColumn styleClass="\@css/dashboard" text="MemberID" fx:id="MemberId" />
+          <TableColumn    text="FullName" fx:id="FullName"/>
+            <TableColumn  text="Email Address" fx:id="EmailAddress"/>
+            <TableColumn  text="Date of Birth" fx:id="DateOfBirth" />
+            <TableColumn  text="Mailing Address" fx:id="MailingAddress"/>
+            <TableColumn  text="Registered" fx:id="Registered"/>
         </columns>
       </TableView>
    </children>

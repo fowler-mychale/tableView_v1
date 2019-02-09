@@ -24,7 +24,8 @@
 .table-view .column-header .label{
    -fx-text-fill: white;
    -fx-font-weight: bold;
-   -fx-alignment: CENTER_LEFT;
+   -fx-alignment: CENTER;
+
 }
 
 
@@ -35,7 +36,6 @@
   -fx-border-color: #29292D;
   -fx-text-fill: lightgray;
   -fx-alignment: CENTER_LEFT;
+
 }
-
-
 
