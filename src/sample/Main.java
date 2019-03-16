@@ -1,23 +1,23 @@
 package sample;
 
+
+
 import animatefx.animation.FadeIn;
 import javafx.application.Application;
+
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
+
+
 import javafx.stage.Stage;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import javafx.application.Application;
-import javafx.scene.Group;
-import javafx.scene.Scene;
+
 import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
-import javafx.stage.Stage;
 
 
 public class Main extends Application {
+
+
 
     @Override
     public void start(Stage primaryStage) throws Exception{
@@ -26,28 +26,12 @@ public class Main extends Application {
         Image image = new Image("https://raw.githubusercontent.com/fowler-mychale/tableView_v1/master/src/sample/css/sah-icon.png");
         primaryStage.getIcons().add(image);
         primaryStage.setScene(new Scene(root, 1200, 575));
-
-       Button button= new Button();
-
-
-
-
+        new FadeIn(root).play();
         primaryStage.show();
 
-
-
-
-
-        new FadeIn(root).play();
     }
-
-
 
     public static void main(String[] args) {
         launch(args);
     }
-
-
-
-
 }

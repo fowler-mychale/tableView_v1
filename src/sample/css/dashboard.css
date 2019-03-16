@@ -5,7 +5,7 @@
 
 
 }
-
+/*Changes here affect the buttons in the AnchorPane*/
 .button:hover{
     -fx-background-color: #0a7ba3;
     -fx-border-color: transparent;
@@ -18,9 +18,11 @@
 
 .table-view .column-header,
 .table-view .column-header-background .filler {
-    -fx-background-color:  #0a7ba3;
+-fx-background-color:  #0a7ba3;
 
 }
+
+/*Changes here affect the header only*/
 .table-view .column-header .label{
    -fx-text-fill: white;
    -fx-font-weight: bold;
@@ -28,14 +30,11 @@
 
 }
 
-
+/*Changes here affect the cell itself*/
 .table-view .cell{
-   -fx-cell-size: 35;
-  -fx-alignment: center-left;
-  -fx-background-color: #29292D;
-  -fx-border-color: #29292D;
-  -fx-text-fill: lightgray;
-  -fx-alignment: CENTER_LEFT;
-
+  -fx-cell-size: 35;
+  -fx-alignment: center;
+  -fx-text-fill: black;
+  -fx-alignment: CENTER;
 }
 
