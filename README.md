@@ -1,7 +1,7 @@
 # tableView_v1
 Dashboard
 
-A Tableview that runs queries via a SQL backend. This application is for users who do not wish to use SQL for obtaining information.
+A Tableview that runs queries via a SQL backend. This application is for users who do not wish to use SQL queries to obtain information.
 
 Simply press the "query_1" button and the data will populate.
 
