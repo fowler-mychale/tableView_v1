@@ -20,4 +20,5 @@ A Tableview that runs queries via a SQL backend. This application is for users w
 ### Tools used for this project
 - Java
 - JavaFX/CSS
+- FXML
 - MYSQL Workbench
