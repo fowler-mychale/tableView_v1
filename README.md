@@ -18,6 +18,6 @@ A Tableview that runs queries via a SQL backend. This application is for users w
 ![Screen](https://github.com/fowler-mychale/tableView_v1/blob/master/Capture.PNG?raw=true)
 
 ### Tools used for this project
--Java
--JavaFX/CSS
--MYSQL Workbench
+- Java
+- JavaFX/CSS
+- MYSQL Workbench
