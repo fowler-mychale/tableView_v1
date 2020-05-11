@@ -22,3 +22,4 @@ A Tableview that runs queries via a SQL backend. This application is for users w
 - JavaFX/CSS
 - FXML
 - MYSQL Workbench
+- IntelliJ ide
