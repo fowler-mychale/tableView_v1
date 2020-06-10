@@ -1,7 +1,6 @@
-# tableView_v1
-Dashboard
+# Dashboard Table view
 
-A Tableview that runs queries via a SQL backend. This application is for users who do not wish to use SQL queries to obtain information.
+A Tableview service that runs queries from a SQL backend. This application is for users who typically do not use SQL to obtain information.
 
 **Steps to get application started.**<br><br>
       1. Upon download of the application; install Wamp server (or any server software you prefer).<br>
