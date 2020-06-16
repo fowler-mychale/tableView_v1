@@ -11,13 +11,10 @@ A table view service that runs queries from a SQL backend. This application is f
       3. Once the application is opened in your IDE; navigate to the dbConnection method found in the Controller.java file. Once there; set your path in the String url variable, your username and password which by default is "root" and "passsword" ( change information once logged in).<br><br>
       ![Screen](https://github.com/fowler-mychale/tableView_v1/blob/master/dbConnect.PNG?raw=true)<br><br>
       4. Once this step is completed; Open the Wamp server application and run the program.By clicking on the "query_1" button located on the left of the application. If your tables are set to correspond with what is in the sample.xml and Controller.java file; the information should populate. In my case it is MemberID, FullName, EmailAddress, DateOfBirth, MailingAddress, and Registered(Note: you will need to set this information in phpmyadmin. You can access this by right clikcing in wamp server icon located at the bottom right of the windows taskbar and locating the phpMyAdmin option)<br><br>
-      
-      
-      Populated table.
-![Screen](https://github.com/fowler-mychale/tableView_v1/blob/master/Capture.PNG?raw=true)
+
 
 Demo:</br>
-![alt text](https://github.com/fowler-mychale/ArduinoProjects/blob/master/demo.gif)
+![alt text](https://github.com/fowler-mychale/tableView_v1/blob/master/demo.gif)
 
 
 ### Tools used for this project
