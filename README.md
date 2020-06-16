@@ -16,6 +16,10 @@ A table view service that runs queries from a SQL backend. This application is f
       Populated table.
 ![Screen](https://github.com/fowler-mychale/tableView_v1/blob/master/Capture.PNG?raw=true)
 
+Demo:</br>
+![alt text](https://github.com/fowler-mychale/ArduinoProjects/blob/master/demo.gif)
+
+
 ### Tools used for this project
 - Java
 - JavaFX/CSS
